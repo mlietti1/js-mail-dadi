@@ -4,17 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.css' integrity='sha512-+QrNe4Kul4TNKwDK+EJM71C9z5I9I/iYLEIJPYTfmXouMSU8tkayWYnOsAKjDAaOOH21+MS747IPTYcD+2euuQ==' crossorigin='anonymous'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Gioco dei dadi</title>
 </head>
 <body>
 
-  <h1>Tira il dado</h1>
-  <input type="number" name="number" id="number">
-  <button id="btn">Vai!</button>
-  <div class="container">
+  <div class="text-center">
+    <h1 class="mb-5 display-3">Tira il dado</h1>
+    <select name="number" id="number">
+			<option value=""></option>
+			<option value="1">1</option>
+  		<option value="2">2</option>
+  		<option value="3">3</option>
+  		<option value="4">4</option>
+  		<option value="5">5</option>
+  		<option value="6">6</option>
+		</select>
+    <button class="ms-4" id="btn">Vai!</button>
+  </div>
+  
+  <div class="mc-container">
+    <div class="dado-user d-flex align-items-center justify-content-center">
+			
+    </div>
+    <div class="dado-random d-flex align-items-center justify-content-center">
 
+    </div>
   </div>
 
+	<div class="d-flex justify-content-center">
+		<h2 class="result"></h2>
+	</div>
   <script src="js/script.js"></script>
 </body>
 </html>

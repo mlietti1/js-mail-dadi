@@ -4,6 +4,49 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
+body {
+  background-color: #e09f3e;
+  color: #335c67;
+  font-family: 'Rajdhani', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
+
+.mc-container {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dado-user, .dado-random {
+  width: 80px;
+  height: 80px;
+  margin: 2rem;
+  background-color: #fff3b0;
+  border-radius: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+select {
+  background-color: #540b0e;
+  border: none;
+  border-radius: 1.7rem;
+  width: 50px;
+  height: 1.7rem;
+  padding-left: 12px;
+  color: #fff3b0;
+}
+
+button {
+  background-color: #9e2a2b;
+  border: none;
+  cursor: pointer;
+  color: #fff3b0;
+  border-radius: 1.5rem;
+  padding: 2px 8px;
+}
+
