@@ -4,7 +4,38 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 154, 154);
+    font-family: 'Comfortaa', cursive;
+}
+
 .container {
     margin: 3rem auto;
     text-align: center;
+    padding: 3rem;
+}
+
+p {
+    margin: 2rem 0;
+}
+
+button {
+    background-color: rgb(209, 209, 209);
+    color: white;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    border: none;
+}
+
+input {
+    border: 1px solid rgb(209, 209, 209);
+    line-height: 1.3rem;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+label {
+    vertical-align: bottom;
 }

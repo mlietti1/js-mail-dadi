@@ -14,9 +14,9 @@ const btnCheck = document.getElementById('btn');
 btnCheck.addEventListener('click', function(){
   
   userEmail = document.getElementById('email').value;
-  console.log(userEmail);
   for (let i = 0; i < emailList.length; i++){
     
+    console.log(userEmail);
     console.log(emailList[i]);
 
     if (emailList[i] === userEmail){
