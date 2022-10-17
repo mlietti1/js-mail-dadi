@@ -9,11 +9,11 @@ const rollDice = document.getElementById('btn');
 
 rollDice.addEventListener('click', function(){
 
-  numUtente = document.getElementById('number').value;
+  numUtente = Math.ceil(Math.random() * 6);
   dadoUser.innerHTML = numUtente;
   
 
-  numEstratto = Math.floor(Math.random() * 6) + 1;
+  numEstratto = Math.ceil(Math.random() * 6);
   dadoRandom.innerHTML = numEstratto;
 
   if(numUtente > numEstratto){
